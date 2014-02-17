@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-poop"
-  spec.version       = "1.0.0"
+  spec.version       = "1.0.1"
   spec.authors       = ["Mitch Dempsey"]
   spec.email         = ["mitch@mitchdempsey.com"]
   spec.description   = %q{A Lita handler pooping euphemisms.}
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 2.14"
   spec.add_development_dependency "simplecov"
   spec.add_development_dependency "coveralls"
+
+  spec.metadata = { "lita_plugin_type" => "handler" }
 end
